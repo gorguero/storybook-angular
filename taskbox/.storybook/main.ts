@@ -14,4 +14,9 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
 };
+
+module.exports = {
+ stories: ['../src/app/components/**/*.stories.ts'],
+  addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
+};
 export default config;
